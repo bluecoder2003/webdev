@@ -1,0 +1,90 @@
+/* Set a background color and text color */
+body {
+    background-color:#fbfcf8;
+    color: #000909;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #94B9AF;
+    color: #1f0202;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color:#8E4A49;
+    text-align: right;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0764b1;
+    color: #0D1821;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #b0a3c0;
+    color: #fff;
+    text-align: end;
+    padding: 2px;
+}
+
+/* Add design elements in orange */
+header h1,
+nav ul li a {
+    color: #130101;
+}
+
+/* Additional styles for specific sections */
+.maincontainer {
+    min-height: 100vh;
+}
+
+#home {
+    min-height: 1000px;
+    background-color: #fbfcf8;
+}
+
+#conferencedetails {
+    min-height: 1000px;
+    background-color: #fbfcf8;
+}
+
+#ConferenceSpeakerDetailsandTimeline {
+    min-height: 1000px;
+    background-color: #fbfcf8;
+}
+#JournalSubmissionLinkandGuidelines{
+    min-height: 1000px;
+    background-color: #fbfcf8;
+}
