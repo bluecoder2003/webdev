@@ -1,19 +1,11 @@
 /* Set a background color and text color */
 body {
-    background-color:#fbfcf8;
+    background-color:#FBF5F3;
     color: #000909;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Style the header */
-header {
-    background-color: #94B9AF;
-    color: #1f0202;
-    text-align: center;
-    padding: 20px;
-}
 
 /* Style the navigation bar */
 nav {
@@ -38,8 +30,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #0764b1;
-    color: #0D1821;
+    /* background-color: #8E4A49; */
+    color: #c18281;
 }
 
 /* Style the main content area */
@@ -53,9 +45,9 @@ section {
 
 /* Style the footer */
 footer {
-    background-color: #b0a3c0;
+    background-color: #8E4A49;
     color: #fff;
-    text-align: end;
+    text-align: center;
     padding: 2px;
 }
 
@@ -71,20 +63,20 @@ nav ul li a {
 }
 
 #home {
-    min-height: 1000px;
-    background-color: #fbfcf8;
+    min-height: fit-content;
+    background-color: #FBF5F3;
 }
 
 #conferencedetails {
     min-height: 1000px;
-    background-color: #fbfcf8;
+    background-color: #FBF5F3;
 }
 
 #ConferenceSpeakerDetailsandTimeline {
     min-height: 1000px;
-    background-color: #fbfcf8;
+    background-color: #FBF5F3;
 }
 #JournalSubmissionLinkandGuidelines{
     min-height: 1000px;
-    background-color: #fbfcf8;
+    background-color: #FBF5F3;
 }
